@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Predict_New_Game.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Predict_New_Game.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Run Predictor (current file)",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Run Training Script",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Game Outcome Project.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
